@@ -1,0 +1,31 @@
+# Secretos y claves: nunca al repositorio
+*.p8
+*.p12
+*.jks
+*.keystore
+*.pem
+*.key
+*.mobileprovision
+.env
+.env.*
+keystore.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+secrets/
+
+# Binarios y salidas de compilacion
+*.ipa
+*.aab
+*.apk
+ipa_out/
+apk_out/
+build/
+ios/build/
+DerivedData/
+*.xcuserstate
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
